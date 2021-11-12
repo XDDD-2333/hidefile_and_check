@@ -1,0 +1,1 @@
+cmd_/home/dhz/my_lkm/hookgetdents64/Module.symvers := sed 's/ko$$/o/' /home/dhz/my_lkm/hookgetdents64/modules.order | scripts/mod/modpost -m -a   -o /home/dhz/my_lkm/hookgetdents64/Module.symvers -e -i Module.symvers   -T -

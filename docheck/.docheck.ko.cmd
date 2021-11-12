@@ -1,0 +1,1 @@
+cmd_/home/dhz/my_lkm/docheck/docheck.ko := ld -r -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/dhz/my_lkm/docheck/docheck.ko /home/dhz/my_lkm/docheck/docheck.o /home/dhz/my_lkm/docheck/docheck.mod.o;  true

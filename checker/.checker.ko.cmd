@@ -1,0 +1,1 @@
+cmd_/home/dhz/my_lkm/checker/checker.ko := ld -r -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/dhz/my_lkm/checker/checker.ko /home/dhz/my_lkm/checker/checker.o /home/dhz/my_lkm/checker/checker.mod.o;  true

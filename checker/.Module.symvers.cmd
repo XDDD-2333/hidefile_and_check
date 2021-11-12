@@ -1,0 +1,1 @@
+cmd_/home/dhz/my_lkm/checker/Module.symvers := sed 's/ko$$/o/' /home/dhz/my_lkm/checker/modules.order | scripts/mod/modpost -m -a   -o /home/dhz/my_lkm/checker/Module.symvers -e -i Module.symvers   -T -
