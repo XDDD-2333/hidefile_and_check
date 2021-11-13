@@ -18,10 +18,6 @@ static inline void mywrite_cr0(unsigned long value) {
 }
        
 
-// static unsigned long * get_syscall_table(void) {
-//   /*定义和kallsyms_lookup_name函数相同参数和返回值的函数，方便接受kprobe返回的函数地址*/
-  
-// }
 
 static int __init docheck(void) {
   unsigned long orig_cr0;
