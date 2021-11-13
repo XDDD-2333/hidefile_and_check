@@ -3,15 +3,11 @@
 #include <linux/kernel.h>
 #include <linux/kprobes.h>
 #include <linux/dirent.h>
-// #define HIDE_ME "myhidden"
+
 
 unsigned long * syscall_table;
 unsigned long myorg_syscall_table[NR_syscalls];
-// static int get_org_syscall_table(void * __org_syscall_table[]){
-//     __org_syscall_table=org_syscall_table;
-//     return 0;
-// }
-// EXPORT_SYMBOL_GPL(myorg_syscall_table);
+
 
 static struct 
 kprobe kp = {
