@@ -14,6 +14,9 @@ sudo insmod XXX.ko
 sudo rm xxx
 ```
 
+实现隐藏与实现检测文档
+
+[隐藏文件目录与检测说明文档](./隐藏文件与目录-note.md)
 
 
 
